@@ -1,0 +1,6 @@
+name = input("nom:")
+ville = input ("ville:")
+age = input ("age:")
+print(name)
+print(ville)
+print(age)
