@@ -1,5 +1,6 @@
-import os
+from pathlib import Path
 
-chemin = "/mnt/nfs/homes/dzybin/Documents/PYTHON"
-dossier = os.path.join(chemin, "new_dir", "branch_dir")
-os.makedirs(dossier)
+dir = "/mnt/nfs/homes/dzybin/Documents/PYTHON"
+p = Path(dir)
+c = p.parent
+print(c)
