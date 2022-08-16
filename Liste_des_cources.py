@@ -1,0 +1,1 @@
+a = input("Veuillez faire votre choix :")
