@@ -27,5 +27,3 @@ def morse_encoding(message):
     return letter_encode
 print(morse_encoding("la vie est belle"))
 
-
-#morse_encoding("sos sos sos")
